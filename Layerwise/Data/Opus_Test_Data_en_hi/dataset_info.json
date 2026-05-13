@@ -1,0 +1,73 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "en-hi",
+  "dataset_name": "opus-100",
+  "dataset_size": 125894194,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/Helsinki-NLP/opus-100@805090dc28bf78897da9641cdf08b61287580df9/en-hi/test-00000-of-00001.parquet": {
+      "num_bytes": 259276,
+      "checksum": null
+    },
+    "hf://datasets/Helsinki-NLP/opus-100@805090dc28bf78897da9641cdf08b61287580df9/en-hi/train-00000-of-00001.parquet": {
+      "num_bytes": 65219235,
+      "checksum": null
+    },
+    "hf://datasets/Helsinki-NLP/opus-100@805090dc28bf78897da9641cdf08b61287580df9/en-hi/validation-00000-of-00001.parquet": {
+      "num_bytes": 247375,
+      "checksum": null
+    }
+  },
+  "download_size": 65725886,
+  "features": {
+    "translation": {
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "_type": "Translation"
+    },
+    "prompt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "target": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 191620080,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 496570,
+      "num_examples": 2000,
+      "dataset_name": "opus-100"
+    },
+    "train": {
+      "name": "train",
+      "num_bytes": 124923545,
+      "num_examples": 534319,
+      "dataset_name": "opus-100"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 474079,
+      "num_examples": 2000,
+      "dataset_name": "opus-100"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

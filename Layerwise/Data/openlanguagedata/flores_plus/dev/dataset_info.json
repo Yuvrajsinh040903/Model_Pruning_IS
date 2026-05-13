@@ -1,0 +1,1856 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "flores_plus",
+  "dataset_size": 165173227,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ace_Arab.parquet": {
+      "num_bytes": 125381,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ace_Latn.parquet": {
+      "num_bytes": 113752,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/acm_Arab.parquet": {
+      "num_bytes": 134636,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/acq_Arab.parquet": {
+      "num_bytes": 136269,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/aeb_Arab.parquet": {
+      "num_bytes": 133731,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/afr_Latn.parquet": {
+      "num_bytes": 116978,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/als_Latn.parquet": {
+      "num_bytes": 125381,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/amh_Ethi.parquet": {
+      "num_bytes": 145933,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/apc_Arab_nort3139.parquet": {
+      "num_bytes": 129566,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/apc_Arab_sout3123.parquet": {
+      "num_bytes": 129356,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/arb_Arab.parquet": {
+      "num_bytes": 137245,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/arb_Latn.parquet": {
+      "num_bytes": 129451,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/arg_Latn.parquet": {
+      "num_bytes": 127209,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ars_Arab.parquet": {
+      "num_bytes": 137456,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ary_Arab.parquet": {
+      "num_bytes": 134821,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/arz_Arab.parquet": {
+      "num_bytes": 133624,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/asm_Beng.parquet": {
+      "num_bytes": 166855,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ast_Latn.parquet": {
+      "num_bytes": 118610,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/awa_Deva.parquet": {
+      "num_bytes": 157369,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ayr_Latn.parquet": {
+      "num_bytes": 116083,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/azb_Arab.parquet": {
+      "num_bytes": 133958,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/azj_Latn.parquet": {
+      "num_bytes": 127570,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/bak_Cyrl.parquet": {
+      "num_bytes": 149212,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/bam_Latn.parquet": {
+      "num_bytes": 110957,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ban_Latn.parquet": {
+      "num_bytes": 113700,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/bel_Cyrl.parquet": {
+      "num_bytes": 168486,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/bem_Latn.parquet": {
+      "num_bytes": 125739,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ben_Beng.parquet": {
+      "num_bytes": 165764,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/bho_Deva.parquet": {
+      "num_bytes": 154651,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/bjn_Arab.parquet": {
+      "num_bytes": 135637,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/bjn_Latn.parquet": {
+      "num_bytes": 111958,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/bod_Tibt.parquet": {
+      "num_bytes": 165213,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/bos_Latn.parquet": {
+      "num_bytes": 121161,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/brx_Deva.parquet": {
+      "num_bytes": 163869,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/bug_Latn.parquet": {
+      "num_bytes": 120781,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/bul_Cyrl.parquet": {
+      "num_bytes": 150594,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/cat_Latn.parquet": {
+      "num_bytes": 123023,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ceb_Latn.parquet": {
+      "num_bytes": 120740,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ces_Latn.parquet": {
+      "num_bytes": 125113,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/chv_Cyrl.parquet": {
+      "num_bytes": 154811,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/cjk_Latn.parquet": {
+      "num_bytes": 121221,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ckb_Arab.parquet": {
+      "num_bytes": 144404,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/cmn_Hans.parquet": {
+      "num_bytes": 117662,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/cmn_Hant.parquet": {
+      "num_bytes": 114340,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/crh_Latn.parquet": {
+      "num_bytes": 120533,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/cym_Latn.parquet": {
+      "num_bytes": 117504,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/dan_Latn.parquet": {
+      "num_bytes": 116612,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/dar_Cyrl.parquet": {
+      "num_bytes": 158517,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/deu_Latn.parquet": {
+      "num_bytes": 127092,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/dgo_Deva.parquet": {
+      "num_bytes": 167776,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/dik_Latn.parquet": {
+      "num_bytes": 106173,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/dyu_Latn.parquet": {
+      "num_bytes": 122341,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/dzo_Tibt.parquet": {
+      "num_bytes": 178320,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ekk_Latn.parquet": {
+      "num_bytes": 117095,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ell_Grek.parquet": {
+      "num_bytes": 170893,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/eng_Latn.parquet": {
+      "num_bytes": 111610,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/epo_Latn.parquet": {
+      "num_bytes": 113304,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/eus_Latn.parquet": {
+      "num_bytes": 115250,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ewe_Latn.parquet": {
+      "num_bytes": 110429,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/fao_Latn.parquet": {
+      "num_bytes": 118660,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/fij_Latn.parquet": {
+      "num_bytes": 111307,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/fil_Latn.parquet": {
+      "num_bytes": 124869,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/fin_Latn.parquet": {
+      "num_bytes": 123179,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/fon_Latn.parquet": {
+      "num_bytes": 124687,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/fra_Latn.parquet": {
+      "num_bytes": 127912,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/fur_Latn.parquet": {
+      "num_bytes": 121279,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/fuv_Latn.parquet": {
+      "num_bytes": 111626,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/gaz_Latn.parquet": {
+      "num_bytes": 124890,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/gla_Latn.parquet": {
+      "num_bytes": 127212,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/gle_Latn.parquet": {
+      "num_bytes": 128048,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/glg_Latn.parquet": {
+      "num_bytes": 123044,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/gom_Deva.parquet": {
+      "num_bytes": 159408,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/gug_Latn.parquet": {
+      "num_bytes": 114552,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/guj_Gujr.parquet": {
+      "num_bytes": 161641,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/hat_Latn.parquet": {
+      "num_bytes": 107890,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/hau_Latn.parquet": {
+      "num_bytes": 116221,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/heb_Hebr.parquet": {
+      "num_bytes": 125123,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/hin_Deva.parquet": {
+      "num_bytes": 160901,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/hne_Deva.parquet": {
+      "num_bytes": 156497,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/hrv_Latn.parquet": {
+      "num_bytes": 118785,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/hun_Latn.parquet": {
+      "num_bytes": 127300,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/hye_Armn.parquet": {
+      "num_bytes": 157809,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ibo_Latn.parquet": {
+      "num_bytes": 118415,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ilo_Latn.parquet": {
+      "num_bytes": 122303,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ind_Latn.parquet": {
+      "num_bytes": 113154,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/isl_Latn.parquet": {
+      "num_bytes": 120750,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ita_Latn.parquet": {
+      "num_bytes": 126682,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/jav_Latn.parquet": {
+      "num_bytes": 111267,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/jpn_Jpan.parquet": {
+      "num_bytes": 126168,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/kab_Latn.parquet": {
+      "num_bytes": 116423,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/kac_Latn.parquet": {
+      "num_bytes": 119997,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/kam_Latn.parquet": {
+      "num_bytes": 115042,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/kan_Knda.parquet": {
+      "num_bytes": 174767,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/kas_Arab.parquet": {
+      "num_bytes": 148751,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/kas_Deva.parquet": {
+      "num_bytes": 162637,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/kat_Geor.parquet": {
+      "num_bytes": 172075,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/kaz_Cyrl.parquet": {
+      "num_bytes": 147918,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/kbp_Latn.parquet": {
+      "num_bytes": 123861,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/kea_Latn.parquet": {
+      "num_bytes": 112555,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/khk_Cyrl.parquet": {
+      "num_bytes": 149994,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/khm_Khmr.parquet": {
+      "num_bytes": 205181,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/kik_Latn.parquet": {
+      "num_bytes": 124724,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/kin_Latn.parquet": {
+      "num_bytes": 119233,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/kir_Cyrl.parquet": {
+      "num_bytes": 149689,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/kmb_Latn.parquet": {
+      "num_bytes": 115488,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/kmr_Latn.parquet": {
+      "num_bytes": 121473,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/knc_Arab.parquet": {
+      "num_bytes": 131488,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/knc_Latn.parquet": {
+      "num_bytes": 118419,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/kor_Hang.parquet": {
+      "num_bytes": 125628,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ktu_Latn.parquet": {
+      "num_bytes": 110074,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/lao_Laoo.parquet": {
+      "num_bytes": 172777,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/lij_Latn.parquet": {
+      "num_bytes": 125409,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/lim_Latn.parquet": {
+      "num_bytes": 118975,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/lin_Latn.parquet": {
+      "num_bytes": 105583,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/lit_Latn.parquet": {
+      "num_bytes": 122104,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/lld_Latn.parquet": {
+      "num_bytes": 122194,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/lld_Latn_gard1241.parquet": {
+      "num_bytes": 120841,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/lmo_Latn.parquet": {
+      "num_bytes": 125259,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ltg_Latn.parquet": {
+      "num_bytes": 119469,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ltz_Latn.parquet": {
+      "num_bytes": 123946,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/lua_Latn.parquet": {
+      "num_bytes": 112656,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/lug_Latn.parquet": {
+      "num_bytes": 117268,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/luo_Latn.parquet": {
+      "num_bytes": 113490,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/lus_Latn.parquet": {
+      "num_bytes": 115997,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/lvs_Latn.parquet": {
+      "num_bytes": 124719,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/mag_Deva.parquet": {
+      "num_bytes": 153994,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/mai_Deva.parquet": {
+      "num_bytes": 157823,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/mal_Mlym.parquet": {
+      "num_bytes": 183387,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/mar_Deva.parquet": {
+      "num_bytes": 167914,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/mfe_Latn.parquet": {
+      "num_bytes": 108267,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/mhr_Cyrl.parquet": {
+      "num_bytes": 150979,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/min_Arab.parquet": {
+      "num_bytes": 137457,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/min_Latn.parquet": {
+      "num_bytes": 112472,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/mkd_Cyrl.parquet": {
+      "num_bytes": 148444,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/mlt_Latn.parquet": {
+      "num_bytes": 124495,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/mni_Beng.parquet": {
+      "num_bytes": 162323,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/mni_Mtei.parquet": {
+      "num_bytes": 153741,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/mos_Latn.parquet": {
+      "num_bytes": 114926,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/mri_Latn.parquet": {
+      "num_bytes": 112847,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/mya_Mymr.parquet": {
+      "num_bytes": 186040,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/myv_Cyrl.parquet": {
+      "num_bytes": 150614,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/nld_Latn.parquet": {
+      "num_bytes": 120125,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/nno_Latn.parquet": {
+      "num_bytes": 115496,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/nob_Latn.parquet": {
+      "num_bytes": 113198,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/nob_Latn_radical.parquet": {
+      "num_bytes": 113385,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/npi_Deva.parquet": {
+      "num_bytes": 160510,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/nqo_Nkoo.parquet": {
+      "num_bytes": 160950,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/nso_Latn.parquet": {
+      "num_bytes": 118940,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/nus_Latn.parquet": {
+      "num_bytes": 123420,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/nya_Latn.parquet": {
+      "num_bytes": 116800,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/oci_Latn.parquet": {
+      "num_bytes": 124195,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/oci_Latn_aran1260.parquet": {
+      "num_bytes": 127623,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ory_Orya.parquet": {
+      "num_bytes": 168914,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/pag_Latn.parquet": {
+      "num_bytes": 110830,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/pan_Guru.parquet": {
+      "num_bytes": 165452,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/pap_Latn.parquet": {
+      "num_bytes": 115804,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/pbt_Arab.parquet": {
+      "num_bytes": 144406,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/pes_Arab.parquet": {
+      "num_bytes": 139951,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/plt_Latn.parquet": {
+      "num_bytes": 119970,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/pol_Latn.parquet": {
+      "num_bytes": 128819,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/por_Latn.parquet": {
+      "num_bytes": 121637,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/prs_Arab.parquet": {
+      "num_bytes": 134714,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/quy_Latn.parquet": {
+      "num_bytes": 113505,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ron_Latn.parquet": {
+      "num_bytes": 126747,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/run_Latn.parquet": {
+      "num_bytes": 120287,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/rus_Cyrl.parquet": {
+      "num_bytes": 162855,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/sag_Latn.parquet": {
+      "num_bytes": 107180,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/san_Deva.parquet": {
+      "num_bytes": 164183,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/sat_Olck.parquet": {
+      "num_bytes": 164185,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/scn_Latn.parquet": {
+      "num_bytes": 121760,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/shn_Mymr.parquet": {
+      "num_bytes": 213386,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/sin_Sinh.parquet": {
+      "num_bytes": 173993,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/slk_Latn.parquet": {
+      "num_bytes": 126997,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/slv_Latn.parquet": {
+      "num_bytes": 118601,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/smo_Latn.parquet": {
+      "num_bytes": 116426,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/sna_Latn.parquet": {
+      "num_bytes": 118692,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/snd_Arab.parquet": {
+      "num_bytes": 133960,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/snd_Deva.parquet": {
+      "num_bytes": 167955,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/som_Latn.parquet": {
+      "num_bytes": 125277,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/sot_Latn.parquet": {
+      "num_bytes": 121040,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/spa_Latn.parquet": {
+      "num_bytes": 128524,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/srd_Latn.parquet": {
+      "num_bytes": 122701,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/srp_Cyrl.parquet": {
+      "num_bytes": 148024,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ssw_Latn.parquet": {
+      "num_bytes": 120222,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/sun_Latn.parquet": {
+      "num_bytes": 115244,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/swe_Latn.parquet": {
+      "num_bytes": 116724,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/swh_Latn.parquet": {
+      "num_bytes": 112466,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/szl_Latn.parquet": {
+      "num_bytes": 125598,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/tam_Taml.parquet": {
+      "num_bytes": 178363,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/taq_Latn.parquet": {
+      "num_bytes": 115575,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/taq_Tfng.parquet": {
+      "num_bytes": 151748,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/tat_Cyrl.parquet": {
+      "num_bytes": 148739,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/tel_Telu.parquet": {
+      "num_bytes": 170328,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/tgk_Cyrl.parquet": {
+      "num_bytes": 156784,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/tha_Thai.parquet": {
+      "num_bytes": 171871,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/tir_Ethi.parquet": {
+      "num_bytes": 148575,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/tpi_Latn.parquet": {
+      "num_bytes": 113221,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/tsn_Latn.parquet": {
+      "num_bytes": 125699,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/tso_Latn.parquet": {
+      "num_bytes": 119322,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/tuk_Latn.parquet": {
+      "num_bytes": 122169,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/tum_Latn.parquet": {
+      "num_bytes": 124359,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/tur_Latn.parquet": {
+      "num_bytes": 120815,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/twi_Latn_akua1239.parquet": {
+      "num_bytes": 111188,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/twi_Latn_asan1239.parquet": {
+      "num_bytes": 113672,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/tyv_Cyrl.parquet": {
+      "num_bytes": 160269,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/uig_Arab.parquet": {
+      "num_bytes": 149552,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ukr_Cyrl.parquet": {
+      "num_bytes": 156430,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/umb_Latn.parquet": {
+      "num_bytes": 109995,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/urd_Arab.parquet": {
+      "num_bytes": 144962,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/uzn_Latn.parquet": {
+      "num_bytes": 119979,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/uzs_Arab.parquet": {
+      "num_bytes": 147573,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/vec_Latn.parquet": {
+      "num_bytes": 117240,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/vie_Latn.parquet": {
+      "num_bytes": 127937,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/vmw_Latn.parquet": {
+      "num_bytes": 120196,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/war_Latn.parquet": {
+      "num_bytes": 122133,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/wol_Latn.parquet": {
+      "num_bytes": 116769,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/wuu_Hans.parquet": {
+      "num_bytes": 113707,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/xho_Latn.parquet": {
+      "num_bytes": 120430,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/ydd_Hebr.parquet": {
+      "num_bytes": 147956,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/yor_Latn.parquet": {
+      "num_bytes": 131132,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/yue_Hant.parquet": {
+      "num_bytes": 111167,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/zgh_Tfng.parquet": {
+      "num_bytes": 153981,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/zsm_Latn.parquet": {
+      "num_bytes": 114580,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/dev/zul_Latn.parquet": {
+      "num_bytes": 120190,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ace_Arab.parquet": {
+      "num_bytes": 130759,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ace_Latn.parquet": {
+      "num_bytes": 117957,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/acm_Arab.parquet": {
+      "num_bytes": 140427,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/acq_Arab.parquet": {
+      "num_bytes": 142662,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/aeb_Arab.parquet": {
+      "num_bytes": 139019,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/afr_Latn.parquet": {
+      "num_bytes": 122221,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/als_Latn.parquet": {
+      "num_bytes": 129858,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/amh_Ethi.parquet": {
+      "num_bytes": 148967,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/apc_Arab_nort3139.parquet": {
+      "num_bytes": 134615,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/apc_Arab_sout3123.parquet": {
+      "num_bytes": 135304,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/arb_Arab.parquet": {
+      "num_bytes": 143423,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/arb_Latn.parquet": {
+      "num_bytes": 134880,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/arg_Latn.parquet": {
+      "num_bytes": 131512,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ars_Arab.parquet": {
+      "num_bytes": 143471,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ary_Arab.parquet": {
+      "num_bytes": 140137,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/arz_Arab.parquet": {
+      "num_bytes": 139382,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/asm_Beng.parquet": {
+      "num_bytes": 173253,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ast_Latn.parquet": {
+      "num_bytes": 123685,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/awa_Deva.parquet": {
+      "num_bytes": 164504,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ayr_Latn.parquet": {
+      "num_bytes": 121386,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/azb_Arab.parquet": {
+      "num_bytes": 139646,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/azj_Latn.parquet": {
+      "num_bytes": 133199,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/bak_Cyrl.parquet": {
+      "num_bytes": 155071,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/bam_Latn.parquet": {
+      "num_bytes": 115542,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ban_Latn.parquet": {
+      "num_bytes": 117486,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/bel_Cyrl.parquet": {
+      "num_bytes": 172867,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/bem_Latn.parquet": {
+      "num_bytes": 128475,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ben_Beng.parquet": {
+      "num_bytes": 171184,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/bho_Deva.parquet": {
+      "num_bytes": 162609,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/bjn_Arab.parquet": {
+      "num_bytes": 140790,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/bjn_Latn.parquet": {
+      "num_bytes": 116077,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/bod_Tibt.parquet": {
+      "num_bytes": 171394,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/bos_Latn.parquet": {
+      "num_bytes": 125225,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/bug_Latn.parquet": {
+      "num_bytes": 125028,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/bul_Cyrl.parquet": {
+      "num_bytes": 156815,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/cat_Latn.parquet": {
+      "num_bytes": 127941,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/cat_Latn_vale1252.parquet": {
+      "num_bytes": 128135,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ceb_Latn.parquet": {
+      "num_bytes": 125863,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ces_Latn.parquet": {
+      "num_bytes": 130107,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/chv_Cyrl.parquet": {
+      "num_bytes": 150256,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/cjk_Latn.parquet": {
+      "num_bytes": 124543,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ckb_Arab.parquet": {
+      "num_bytes": 149902,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/cmn_Hans.parquet": {
+      "num_bytes": 119633,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/cmn_Hant.parquet": {
+      "num_bytes": 118136,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/crh_Latn.parquet": {
+      "num_bytes": 124199,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/cym_Latn.parquet": {
+      "num_bytes": 122610,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/dan_Latn.parquet": {
+      "num_bytes": 121125,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/deu_Latn.parquet": {
+      "num_bytes": 132246,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/dik_Latn.parquet": {
+      "num_bytes": 109962,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/dyu_Latn.parquet": {
+      "num_bytes": 127509,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/dzo_Tibt.parquet": {
+      "num_bytes": 182841,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ekk_Latn.parquet": {
+      "num_bytes": 122279,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ell_Grek.parquet": {
+      "num_bytes": 178189,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/eng_Latn.parquet": {
+      "num_bytes": 117046,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/epo_Latn.parquet": {
+      "num_bytes": 118626,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/eus_Latn.parquet": {
+      "num_bytes": 120898,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ewe_Latn.parquet": {
+      "num_bytes": 113614,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/fao_Latn.parquet": {
+      "num_bytes": 123810,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/fij_Latn.parquet": {
+      "num_bytes": 116217,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/fil_Latn.parquet": {
+      "num_bytes": 129803,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/fin_Latn.parquet": {
+      "num_bytes": 127643,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/fon_Latn.parquet": {
+      "num_bytes": 129977,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/fra_Latn.parquet": {
+      "num_bytes": 133109,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/fur_Latn.parquet": {
+      "num_bytes": 125694,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/fuv_Latn.parquet": {
+      "num_bytes": 114655,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/gaz_Latn.parquet": {
+      "num_bytes": 129976,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/gla_Latn.parquet": {
+      "num_bytes": 132578,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/gle_Latn.parquet": {
+      "num_bytes": 132939,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/glg_Latn.parquet": {
+      "num_bytes": 127486,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/gug_Latn.parquet": {
+      "num_bytes": 117930,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/guj_Gujr.parquet": {
+      "num_bytes": 168828,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/hat_Latn.parquet": {
+      "num_bytes": 110851,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/hau_Latn.parquet": {
+      "num_bytes": 119770,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/heb_Hebr.parquet": {
+      "num_bytes": 128984,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/hin_Deva.parquet": {
+      "num_bytes": 167892,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/hne_Deva.parquet": {
+      "num_bytes": 163094,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/hrv_Latn.parquet": {
+      "num_bytes": 122920,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/hun_Latn.parquet": {
+      "num_bytes": 132734,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/hye_Armn.parquet": {
+      "num_bytes": 164092,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ibo_Latn.parquet": {
+      "num_bytes": 123843,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ilo_Latn.parquet": {
+      "num_bytes": 126807,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ind_Latn.parquet": {
+      "num_bytes": 117176,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/isl_Latn.parquet": {
+      "num_bytes": 125474,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ita_Latn.parquet": {
+      "num_bytes": 132108,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/jav_Latn.parquet": {
+      "num_bytes": 116094,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/jpn_Jpan.parquet": {
+      "num_bytes": 131016,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/kaa_Latn.parquet": {
+      "num_bytes": 122751,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/kab_Latn.parquet": {
+      "num_bytes": 121373,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/kac_Latn.parquet": {
+      "num_bytes": 126113,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/kam_Latn.parquet": {
+      "num_bytes": 119669,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/kan_Knda.parquet": {
+      "num_bytes": 179648,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/kas_Arab.parquet": {
+      "num_bytes": 155262,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/kas_Deva.parquet": {
+      "num_bytes": 171047,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/kat_Geor.parquet": {
+      "num_bytes": 177550,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/kaz_Cyrl.parquet": {
+      "num_bytes": 154766,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/kbp_Latn.parquet": {
+      "num_bytes": 127123,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/kea_Latn.parquet": {
+      "num_bytes": 117715,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/khk_Cyrl.parquet": {
+      "num_bytes": 155697,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/khm_Khmr.parquet": {
+      "num_bytes": 208735,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/kik_Latn.parquet": {
+      "num_bytes": 129748,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/kin_Latn.parquet": {
+      "num_bytes": 123669,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/kir_Cyrl.parquet": {
+      "num_bytes": 157394,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/kmb_Latn.parquet": {
+      "num_bytes": 120730,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/kmr_Latn.parquet": {
+      "num_bytes": 125546,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/knc_Arab.parquet": {
+      "num_bytes": 135818,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/knc_Latn.parquet": {
+      "num_bytes": 122252,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/kor_Hang.parquet": {
+      "num_bytes": 130495,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ktu_Latn.parquet": {
+      "num_bytes": 114433,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/lao_Laoo.parquet": {
+      "num_bytes": 177604,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/lij_Latn.parquet": {
+      "num_bytes": 130941,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/lim_Latn.parquet": {
+      "num_bytes": 125131,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/lin_Latn.parquet": {
+      "num_bytes": 109699,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/lit_Latn.parquet": {
+      "num_bytes": 125872,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/lld_Latn.parquet": {
+      "num_bytes": 126964,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/lld_Latn_gard1241.parquet": {
+      "num_bytes": 125684,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/lmo_Latn.parquet": {
+      "num_bytes": 130333,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ltg_Latn.parquet": {
+      "num_bytes": 123684,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ltz_Latn.parquet": {
+      "num_bytes": 128907,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/lua_Latn.parquet": {
+      "num_bytes": 117660,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/lug_Latn.parquet": {
+      "num_bytes": 121839,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/luo_Latn.parquet": {
+      "num_bytes": 117693,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/lus_Latn.parquet": {
+      "num_bytes": 121588,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/lvs_Latn.parquet": {
+      "num_bytes": 128509,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/mag_Deva.parquet": {
+      "num_bytes": 161153,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/mai_Deva.parquet": {
+      "num_bytes": 164364,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/mal_Mlym.parquet": {
+      "num_bytes": 192230,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/mar_Deva.parquet": {
+      "num_bytes": 175078,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/mfe_Latn.parquet": {
+      "num_bytes": 112773,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/mhr_Cyrl.parquet": {
+      "num_bytes": 152835,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/min_Arab.parquet": {
+      "num_bytes": 144402,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/min_Latn.parquet": {
+      "num_bytes": 117697,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/mkd_Cyrl.parquet": {
+      "num_bytes": 154830,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/mlt_Latn.parquet": {
+      "num_bytes": 130172,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/mni_Beng.parquet": {
+      "num_bytes": 170405,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/mos_Latn.parquet": {
+      "num_bytes": 118835,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/mri_Latn.parquet": {
+      "num_bytes": 117057,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/mya_Mymr.parquet": {
+      "num_bytes": 193332,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/myv_Cyrl.parquet": {
+      "num_bytes": 153625,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/nld_Latn.parquet": {
+      "num_bytes": 125205,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/nno_Latn.parquet": {
+      "num_bytes": 120069,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/nob_Latn.parquet": {
+      "num_bytes": 117788,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/nob_Latn_radical.parquet": {
+      "num_bytes": 118310,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/npi_Deva.parquet": {
+      "num_bytes": 167877,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/nqo_Nkoo.parquet": {
+      "num_bytes": 167858,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/nso_Latn.parquet": {
+      "num_bytes": 123141,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/nus_Latn.parquet": {
+      "num_bytes": 128167,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/nya_Latn.parquet": {
+      "num_bytes": 121273,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/oci_Latn.parquet": {
+      "num_bytes": 129203,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/oci_Latn_aran1260.parquet": {
+      "num_bytes": 132559,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ory_Orya.parquet": {
+      "num_bytes": 176486,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/pag_Latn.parquet": {
+      "num_bytes": 113783,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/pan_Guru.parquet": {
+      "num_bytes": 172677,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/pap_Latn.parquet": {
+      "num_bytes": 120343,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/pbt_Arab.parquet": {
+      "num_bytes": 144835,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/pes_Arab.parquet": {
+      "num_bytes": 144982,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/plt_Latn.parquet": {
+      "num_bytes": 124052,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/pol_Latn.parquet": {
+      "num_bytes": 133544,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/por_Latn.parquet": {
+      "num_bytes": 126462,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/prs_Arab.parquet": {
+      "num_bytes": 140521,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/quy_Latn.parquet": {
+      "num_bytes": 118166,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ron_Latn.parquet": {
+      "num_bytes": 132326,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/run_Latn.parquet": {
+      "num_bytes": 125611,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/rus_Cyrl.parquet": {
+      "num_bytes": 167036,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/sag_Latn.parquet": {
+      "num_bytes": 110671,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/san_Deva.parquet": {
+      "num_bytes": 170116,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/sat_Olck.parquet": {
+      "num_bytes": 170814,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/scn_Latn.parquet": {
+      "num_bytes": 125944,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/shn_Mymr.parquet": {
+      "num_bytes": 222540,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/sin_Sinh.parquet": {
+      "num_bytes": 179734,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/slk_Latn.parquet": {
+      "num_bytes": 131382,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/slv_Latn.parquet": {
+      "num_bytes": 123623,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/smo_Latn.parquet": {
+      "num_bytes": 120608,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/sna_Latn.parquet": {
+      "num_bytes": 123468,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/snd_Arab.parquet": {
+      "num_bytes": 140236,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/som_Latn.parquet": {
+      "num_bytes": 132252,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/sot_Latn.parquet": {
+      "num_bytes": 125102,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/spa_Latn.parquet": {
+      "num_bytes": 133481,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/srd_Latn.parquet": {
+      "num_bytes": 127324,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/srp_Cyrl.parquet": {
+      "num_bytes": 154607,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ssw_Latn.parquet": {
+      "num_bytes": 124896,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/sun_Latn.parquet": {
+      "num_bytes": 119437,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/swe_Latn.parquet": {
+      "num_bytes": 120959,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/swh_Latn.parquet": {
+      "num_bytes": 117186,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/szl_Latn.parquet": {
+      "num_bytes": 131810,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/tam_Taml.parquet": {
+      "num_bytes": 187012,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/taq_Latn.parquet": {
+      "num_bytes": 120104,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/taq_Tfng.parquet": {
+      "num_bytes": 157844,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/tat_Cyrl.parquet": {
+      "num_bytes": 154505,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/tel_Telu.parquet": {
+      "num_bytes": 175718,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/tgk_Cyrl.parquet": {
+      "num_bytes": 162876,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/tha_Thai.parquet": {
+      "num_bytes": 178995,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/tir_Ethi.parquet": {
+      "num_bytes": 154862,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/tpi_Latn.parquet": {
+      "num_bytes": 117187,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/tsn_Latn.parquet": {
+      "num_bytes": 129554,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/tso_Latn.parquet": {
+      "num_bytes": 123585,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/tuk_Latn.parquet": {
+      "num_bytes": 126503,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/tum_Latn.parquet": {
+      "num_bytes": 129889,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/tur_Latn.parquet": {
+      "num_bytes": 125672,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/twi_Latn_akua1239.parquet": {
+      "num_bytes": 116164,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/twi_Latn_asan1239.parquet": {
+      "num_bytes": 118709,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/tyv_Cyrl.parquet": {
+      "num_bytes": 162961,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/uig_Arab.parquet": {
+      "num_bytes": 156650,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ukr_Cyrl.parquet": {
+      "num_bytes": 162683,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/umb_Latn.parquet": {
+      "num_bytes": 114861,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/urd_Arab.parquet": {
+      "num_bytes": 150080,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/uzn_Latn.parquet": {
+      "num_bytes": 124568,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/vec_Latn.parquet": {
+      "num_bytes": 122401,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/vie_Latn.parquet": {
+      "num_bytes": 132693,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/vmw_Latn.parquet": {
+      "num_bytes": 128961,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/war_Latn.parquet": {
+      "num_bytes": 127099,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/wol_Latn.parquet": {
+      "num_bytes": 122490,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/xho_Latn.parquet": {
+      "num_bytes": 124459,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/ydd_Hebr.parquet": {
+      "num_bytes": 153657,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/yor_Latn.parquet": {
+      "num_bytes": 134531,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/yue_Hant.parquet": {
+      "num_bytes": 114618,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/zgh_Tfng.parquet": {
+      "num_bytes": 160188,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/zsm_Latn.parquet": {
+      "num_bytes": 118801,
+      "checksum": null
+    },
+    "hf://datasets/openlanguagedata/flores_plus@6a4c3d50537cc73d24777cde59fa6040234c1906/devtest/zul_Latn.parquet": {
+      "num_bytes": 125451,
+      "checksum": null
+    }
+  },
+  "download_size": 59548617,
+  "features": {
+    "id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "iso_639_3": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "iso_15924": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "glottocode": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "variant": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "url": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "domain": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "topic": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "has_image": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "has_hyperlink": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "last_updated": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "split": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 224721844,
+  "splits": {
+    "dev": {
+      "name": "dev",
+      "num_bytes": 82185228,
+      "num_examples": 223328,
+      "dataset_name": "flores_plus"
+    },
+    "devtest": {
+      "name": "devtest",
+      "num_bytes": 82987999,
+      "num_examples": 220616,
+      "dataset_name": "flores_plus"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

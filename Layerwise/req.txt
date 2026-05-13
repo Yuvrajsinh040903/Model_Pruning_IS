@@ -1,0 +1,12 @@
+transformers
+datasets
+trl
+peft
+numpy
+pandas
+scikit-learn
+seaborn
+vllm
+jupyter
+uv
+

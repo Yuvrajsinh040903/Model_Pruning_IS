@@ -1,0 +1,158 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "in22-conv",
+  "dataset_size": 5071799,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/ai4bharat/IN22-Conv@18cd45870ff0a9e65df9b80dbbcc615eec0e4899/data/train-00000-of-00001.parquet": {
+      "num_bytes": 2008883,
+      "checksum": null
+    }
+  },
+  "download_size": 2008883,
+  "features": {
+    "doc_id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "sent_id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "topic": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "domain": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "prompt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "scenario": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "speaker": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "turn": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "asm_Beng": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "ben_Beng": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "brx_Deva": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "doi_Deva": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "eng_Latn": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "gom_Deva": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "guj_Gujr": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "hin_Deva": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "kan_Knda": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "kas_Arab": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "mai_Deva": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "mal_Mlym": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "mar_Deva": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "mni_Mtei": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "npi_Deva": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "ory_Orya": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "pan_Guru": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "san_Deva": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sat_Olck": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "snd_Deva": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tam_Taml": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tel_Telu": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "urd_Arab": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 7080682,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 5071799,
+      "num_examples": 1503,
+      "dataset_name": "in22-conv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
